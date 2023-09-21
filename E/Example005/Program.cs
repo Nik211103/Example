@@ -1,6 +1,5 @@
-﻿class Program {
-    static void Main(string[] args) {
-        Console.WriteLine("Введите первое число:");
+﻿
+ Console.WriteLine("Введите первое число:");
         int a = int.Parse(Console.ReadLine());
 
         Console.WriteLine("Введите второе число:");
