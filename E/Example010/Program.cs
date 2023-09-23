@@ -29,3 +29,48 @@ int b = int.Parse(Console.ReadLine());
     else {
     System.Console.WriteLine($"{a}, {b} -> не кратно.");
     }*/
+
+
+
+
+
+
+
+
+
+
+
+
+    /*Задача №14. Работа в группах
+Напишите программу, которая принимает на вход число и проверяет, кратно ли оно одновременно _x000b_7 и 23.
+
+14 -> нет
+46 -> нет
+161 -> да*/
+
+
+/*Задача №16. Работа в группах
+Напишите программу, которая принимает на вход два числа и проверяет, является ли одно число квадратом другого.
+
+5, 25 -> да
+-4, 16 -> да
+25, 5 -> да
+8,9 -> нет*/
+
+/*int num1 = 7;
+int num2 = 23;
+System.Console.WriteLine("Введите число:");
+int a = int.Parse(Console.ReadLine());
+    if (a % num1 == 0 && a % num2 == 0){
+    System.Console.WriteLine($"Число {a} кратно {num1} и {num2}.");
+    }
+    else{
+    System.Console.WriteLine($"Число {a} не кратно {num1} и {num2}.");
+    }*/
+
+System.Console.WriteLine("Введите первое число:");
+int a = int.Parse(Console.ReadLine());
+
+System.Console.WriteLine("Введите второе число:");
+int b = int.Parse(Console.ReadLine());
+
