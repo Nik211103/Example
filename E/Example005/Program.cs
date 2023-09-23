@@ -12,4 +12,4 @@
         } else {
             Console.WriteLine("Числа равны");
         }
-    }
+    
