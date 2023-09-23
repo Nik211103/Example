@@ -72,5 +72,5 @@ System.Console.WriteLine("Введите первое число:");
 int a = int.Parse(Console.ReadLine());
 
 System.Console.WriteLine("Введите второе число:");
-int b = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine())
 
