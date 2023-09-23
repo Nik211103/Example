@@ -72,5 +72,11 @@ System.Console.WriteLine("Введите первое число:");
 int a = int.Parse(Console.ReadLine());
 
 System.Console.WriteLine("Введите второе число:");
-int b = int.Parse(Console.ReadLine())
+int b = int.Parse(Console.ReadLine());
+    if (a / b == b){
+    System.Console.WriteLine($"{b} является квадратом {a}.");
+    }
+    else{
+    System.Console.WriteLine($"{b} не является квадратом {a}.");
+    }
 
