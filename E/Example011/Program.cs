@@ -1,7 +1,7 @@
-﻿/*System.Console.WriteLine("Введите число четверти координаты:");
+﻿System.Console.WriteLine("Введите число четверти координаты:");
 int a = Convert.ToInt32(Console.ReadLine());
 
-switch (a)
+/*switch (a)
 {
     case 1:
     {
