@@ -14,7 +14,7 @@ int Sum(int limit)
 }
 System.Console.WriteLine($"Сумма числе от 1 до {A} равна {Sum(A)}");*/
 
-void Mass(int col)
+/*void Mass(int col)
 {
     int[] array = new int[col];
 
@@ -35,4 +35,4 @@ void Mass(int col)
 }
 System.Console.Write("Введите длинну массива: ");
 int n = Convert.ToInt32(Console.ReadLine());
-Mass(n);
+Mass(n);*/
