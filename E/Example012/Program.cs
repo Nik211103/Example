@@ -9,10 +9,10 @@
     System.Console.WriteLine();
 }*/
 
-/*string text = "- Я думаю, - сказал кнзяь, улыбаясь, - что,"
-            +"ежели бы вас послали вместо нашего милого Винцегероде,"
-            +"вы бы взяли приступом согласие прусского короля. "
-            +"Вы так красноречивы. Вы дадите мне чаю?";
+/*string text = "- Я думаю, - сказал кнзяь, улыбаясь, - что, "
+            + "ежели бы вас послали вместо нашего милого Винцегероде, "
+            + "вы бы взяли приступом согласие прусского короля. "
+            + "Вы так красноречивы. Вы дадите мне чаю?";
 
 string Replace(string text, char oldValue, char newValue)
 {
@@ -34,7 +34,7 @@ System.Console.WriteLine();
 newText = Replace(text, 'к', 'К');
 System.Console.WriteLine(newText);*/
 
-int [] arr = {1, 5, 4, 3, 2, 6, 7, 1, 1 };
+/*int [] arr = {1, 5, 4, 3, 2, 6, 7, 1, 1 };
 
 void PrintArray(int[] array)
 {
@@ -66,4 +66,4 @@ void SelectionSort(int[] array)
 PrintArray(arr);
 SelectionSort(arr);
 
-PrintArray(arr);
+PrintArray(arr);*/
