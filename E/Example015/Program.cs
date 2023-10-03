@@ -32,3 +32,7 @@ int sumNeg = 0;
 System.Console.WriteLine($"Сумма положительных = {sumPos}");
 System.Console.WriteLine($"Сумма отрицательных = {sumNeg}");*/
 
+int[] Array()
+{
+
+}
