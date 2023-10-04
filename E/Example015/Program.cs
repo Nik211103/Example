@@ -235,6 +235,7 @@ public class Answer
 // PrintArray(double[] array): Метод для вывода массива на экран. Он принимает на вход массив array 
 //и выводит его элементы с двумя знаками после запятой через табуляцию.
 
+
 /*using System;
 
 public class ArrayOperations
