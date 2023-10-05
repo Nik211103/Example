@@ -1,4 +1,7 @@
-﻿// using System;
+﻿
+
+using System;
+// using System;
 // using System.Numerics;
 // string [, ] table = new string[2, 5];
 // table[1, 2] = "слово";
@@ -105,12 +108,63 @@ PrintImage(pic);*/
         System.Console.WriteLine($" {i}! = {Fact(i)}");
     }*/
 
-double Fib(int n)
+// double Fib(int n)
+// {
+//     if(n ==1 || n == 2) return 1;
+//     else return Fib(n-1) + Fib(n - 2);
+// }
+// for(int i = 1; i < 10; i++)
+// {
+//     System.Console.WriteLine($"{i} = {Fib(i)}");
+// }
+
+/*Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел больше 0 ввёл пользователь.
+ 0, 7, 8, -2, -2 -> 2
+ 1, -7, 567, 89, 223-> 3*/
+
+
+/*Console.WriteLine("Введите количество чисел:");
+int M = Convert.ToInt32(Console.ReadLine());
+
+int count = 0;
+Console.WriteLine("Введите числа:");
+for (int i = 0; i < M; i++)
 {
-    if(n ==1 || n == 2) return 1;
-    else return Fib(n-1) + Fib(n - 2);
+    int number = Convert.ToInt32(Console.ReadLine());
+    if (number > 0)
+    {
+        count++;
+    }
 }
-for(int i = 1; i < 10; i++)
+
+Console.WriteLine("Количество чисел больше 0 = " + count);*/
+
+/*int[] Count(int M)
 {
-    System.Console.WriteLine($"{i} = {Fib(i)}");
+    int[] numbers = new int[M];
+    int countPositive = 0;
+    int countNegative = 0;
+
+    Console.WriteLine("Введите числа:");
+    for (int i = 0; i < M; i++)
+    {
+        numbers[i] = Convert.ToInt32(Console.ReadLine());
+        if (numbers[i] > 0)
+        {
+            countPositive++;
+        }
+        else if (numbers[i] < 0)
+        {
+            countNegative++;
+        }
+    }
+
+    int[] result = { countPositive, countNegative };
+    return result;
 }
+
+Console.WriteLine("Введите количество чисел:");
+int M = Convert.ToInt32(Console.ReadLine());
+int[] result = Count(M);
+Console.WriteLine("Количество чисел больше 0: " + result[0]);
+Console.WriteLine("Количество чисел меньше 0: " + result[1]);*/
