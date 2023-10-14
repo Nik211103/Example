@@ -339,8 +339,8 @@ public class Answer {
     }
 }*/
 
-/*
-3 ЗАДАЧА
+
+/*3 ЗАДАЧА
 using System;
 
 public class Answer {
