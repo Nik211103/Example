@@ -98,8 +98,8 @@ public class Answer
 }*/
 
 
-/*
-ЗАДАЧА 2
+
+/*ЗАДАЧА 2
 
 using System;
 
@@ -185,8 +185,8 @@ public class Answer
     }
 }*/
 
-/*
-ЗАДАЧА 3
+
+/*ЗАДАЧА 3
 
 using System;
 
@@ -260,3 +260,35 @@ public class Answer
         MultiplyIfPossible(matrix, matrixB);
     }
 }*/
+/* ЗАДАЧА 65
+void Print (int M, int N)
+{
+    
+    if(M != N + 1) 
+    {
+        System.Console.Write($"{M} ");
+        Print(M + 1, N);
+    } 
+    
+}
+
+System.Console.Write("Введите число M: ");
+int M = Convert.ToInt32(Console.ReadLine());
+
+System.Console.Write("Введите число N: ");
+int N = Convert.ToInt32(Console.ReadLine());
+
+Print(M,N);*/
+
+int SumNum(int N)
+{
+    if (N == 0) return N;
+    return N % 10 + SumNum(N/10);
+}
+
+
+
+System.Console.Write("Введите число: ");
+int N = Convert.ToInt32(Console.ReadLine());
+N = SumNum(N);
+System.Console.WriteLine($"Сумма цифра в числе равна: {N}");
