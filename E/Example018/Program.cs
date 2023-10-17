@@ -280,7 +280,7 @@ int N = Convert.ToInt32(Console.ReadLine());
 
 Print(M,N);*/
 
-int SumNum(int N)
+/*int SumNum(int N)
 {
     if (N == 0) return N;
     return N % 10 + SumNum(N/10);
@@ -291,4 +291,39 @@ int SumNum(int N)
 System.Console.Write("Введите число: ");
 int N = Convert.ToInt32(Console.ReadLine());
 N = SumNum(N);
-System.Console.WriteLine($"Сумма цифра в числе равна: {N}");
+System.Console.WriteLine($"Сумма цифра в числе равна: {N}");*/
+
+
+/*System.Console.Write("Введите число A: ");
+int A = Convert.ToInt32(Console.ReadLine());
+
+System.Console.Write("Введите число B: ");
+int B = Convert.ToInt32(Console.ReadLine());
+
+int PowNum (int A, int B)
+{
+    if (B == 0) return 1;
+    if (B == 1) return A;
+    return A * PowNum(A, B - 1);
+} 
+System.Console.Write(PowNum(A, B));*/
+
+void Print (int M, int N)
+{
+    
+    if(M != N + 1) 
+    {
+        System.Console.Write($"{M} ");
+        Print(M + 1, N);
+    } 
+    
+}
+
+System.Console.Write("Введите число M: ");
+int M = Convert.ToInt32(Console.ReadLine());
+
+System.Console.Write("Введите число N: ");
+int N = Convert.ToInt32(Console.ReadLine());
+
+Print(M,N);
+
